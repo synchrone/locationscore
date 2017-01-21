@@ -500,6 +500,9 @@
 				border-radius: 0;
 				display: block;
 				width: 100%;
+				margin: auto;
+				max-width: 1240px;
+				max-height: 623px;
 			}
 
 			.box .image.featured:first-child {
@@ -561,27 +564,26 @@
 
 			.icon.major.accent1 {
 				background: #666;
-				color: #ffffff;
 			}
 
 			.icon.major.accent2 {
 				background: #e89980;
-				color: #ffffff;
 			}
 
 			.icon.major.accent3 {
 				background: #7fcdb8;
-				color: #ffffff;
 			}
 
 			.icon.major.accent4 {
 				background: #90b0ba;
-				color: #ffffff;
 			}
 
 			.icon.major.accent5 {
 				background: #e5cb95;
-				color: #ffffff;
+			}
+
+			.icon.major.accent6 {
+				background: #84A3DC;
 			}
 
 /* Image */
@@ -1224,7 +1226,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../images/berlin-pano-noblur.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
