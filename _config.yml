@@ -2,9 +2,8 @@ name: Location Score
 slogan: Get up-to-date information about any location, and see what's cool there.
 description: Rate and compare any places in Berlin!
 authors: some guys
-baseurl: 
-appurl: 'http://flaties.syn.im'
-url: "http://localhost:4000"
+baseurl:
+appurl: ''
 
 paginate: 10
 
